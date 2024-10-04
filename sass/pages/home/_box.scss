@@ -1,0 +1,48 @@
+@use "../../utilities/variables" as *;
+@use"../../utilities/mixins" as *;
+.about{
+    @include flex (space-between,center);
+    font-family: "Kanit", sans-serif;
+}
+.chef{
+    margin-left: 10%;
+}
+.us{
+    color:$primary-color
+}
+.reasons{
+    padding: 1PX;
+    align-items: center;
+    text-align: center;
+    border: 1px solid $light-grey;
+    border-radius: 10px;
+    width: 70%;
+    background-color: $light-grey;
+}
+.fresh{
+    gap: 5px;
+    margin-top: 5%;
+    margin-left: 30px;
+    margin-right: 50px;
+    background-color: white;
+}
+.fast{
+    gap: 5px;
+    margin-top: 10%;
+    margin-left: 30px;
+    margin-right: 50px;
+    background-color: white;
+}
+.best{
+    gap: 5px;
+    margin-top: 10%;
+    margin-left: 30px;
+    margin-right: 50px;
+    background-color: white;
+    margin-bottom: 10%;
+}
+
+
+
+
+

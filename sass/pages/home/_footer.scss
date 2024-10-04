@@ -1,0 +1,39 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+//  @include flex(row,flex,)
+ .abaut{background-color: black;
+    display:flex;
+    gap:2rem;
+
+    // flex-direction:row;
+}
+.stay{
+    @include flex(column,space-between);
+    display:flex;
+    background-color: black;
+    color: white;
+    flex-direction:row;
+    gap:30%;
+    
+    }
+ 
+
+    
+    .connected{
+        @include flex(row,space-between);
+
+     justify-content: space-between;
+     color:white;
+     margin:40px;
+     flex-direction: row;
+    }
+    .quick{
+        @include flex(column,space-between);
+        color:white;
+        margin:20px;
+    }
+    .ul{
+        @include flex(center,space-between);
+        text-align:center;
+    }
+    

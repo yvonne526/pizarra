@@ -1,0 +1,34 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+// section{background-color: pink;}
+.hero-section{
+    @include flex(space-between,center);
+    
+}
+hero-left{
+    color:$black;
+    margin:0;
+}
+#image{
+ background-color: $black;
+ border-radius: 50%;
+ padding:10%;
+}
+hero-right{
+    margin:0;
+    gap: 20px;
+    
+}
+
+.items {
+    @include flex(space-between, center);
+    border-bottom: solid gray;
+    margin-top: 1em;
+
+  }
+
+  .flex{
+    @include flex(space-between, center);
+  }
+
+

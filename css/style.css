@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul, li {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: lightgrey;
+}
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+nav .nav-center ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+nav a {
+  display: inline-block;
+}
+nav a:hover {
+  color: white;
+  background-color: orange;
+}
+nav .nav-right {
+  display: inline-block;
+}
+nav .nav-right fa-bars {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-center {
+    visibility: hidden;
+  }
+  ul {
+    flex-direction: row;
+  }
+  a {
+    margin-bottom: 10px;
+  }
+  .fa-solid {
+    display: inline-block;
+  }
+}
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+hero-left {
+  color: #000;
+  margin: 0;
+}
+
+#image {
+  background-color: #000;
+  border-radius: 50%;
+  padding: 10%;
+}
+
+hero-right {
+  margin: 0;
+  gap: 20px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  border-bottom: solid gray;
+  margin-top: 1em;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.containerr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+  list-style: underlined;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.new ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: column;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+.new ul li a {
+  margin: 50px;
+  justify-content: space-between;
+  display: inline-block;
+}
+.new ul li a:hover {
+  color: white;
+  background-color: orange;
+}
+.new ul li .items {
+  display: flex;
+}
+
+.items-wan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  margin-top: 1em;
+  padding-left: 40px;
+}
+
+.input {
+  color: #000;
+}
+
+.btn-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  background-color: orange;
+  border-radius: 7px;
+  padding: 7px;
+  border: none;
+}
+.btn-viewhover {
+  color: white;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  font-family: "Kanit", sans-serif;
+}
+
+.chef {
+  margin-left: 10%;
+}
+
+.us {
+  color: orange;
+}
+
+.reasons {
+  padding: 1PX;
+  align-items: center;
+  text-align: center;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  width: 70%;
+  background-color: lightgrey;
+}
+
+.fresh {
+  gap: 5px;
+  margin-top: 5%;
+  margin-left: 30px;
+  margin-right: 50px;
+  background-color: white;
+}
+
+.fast {
+  gap: 5px;
+  margin-top: 10%;
+  margin-left: 30px;
+  margin-right: 50px;
+  background-color: white;
+}
+
+.best {
+  gap: 5px;
+  margin-top: 10%;
+  margin-left: 30px;
+  margin-right: 50px;
+  background-color: white;
+  margin-bottom: 10%;
+}
+
+.abaut {
+  background-color: black;
+  display: flex;
+  gap: 2rem;
+}
+
+.stay {
+  display: flex;
+  justify-content: column;
+  align-items: space-between;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  display: flex;
+  background-color: black;
+  color: white;
+  flex-direction: row;
+  gap: 30%;
+}
+
+.connected {
+  display: flex;
+  justify-content: row;
+  align-items: space-between;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  color: white;
+  margin: 40px;
+  flex-direction: row;
+}
+
+.quick {
+  display: flex;
+  justify-content: column;
+  align-items: space-between;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  color: white;
+  margin: 20px;
+}
+
+.ul {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  text-align: center;
+}

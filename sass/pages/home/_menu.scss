@@ -1,0 +1,55 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+.containerr {
+  @include flex(center, center, column);
+    list-style: underlined;
+    justify-content: space-between;
+    padding: 30px;
+    // background-color: $light-grey;
+  }
+ 
+
+.new{
+  
+  ul { 
+    @include flex(flex-start, column);
+    li {
+      a {margin: 50px;
+        justify-content: space-between;
+        display: inline-block;
+        &:hover{
+            color:white;
+            background-color:$primary-color;
+            
+    }
+}
+    .items{
+    display: flex;
+    }
+}
+  }
+}
+
+.items-wan{
+    @include flex(space-between, center);
+    margin-top: 1em;
+    // margin: auto 0;
+    // padding-right: 40px;
+    padding-left: 40px;
+    // background-color: yellow;
+}
+.input{
+  color:$black;
+}
+.btn-view{
+    @include flex(center,center);
+    background-color: orange;
+    border-radius: 7px;
+    padding:7px;
+    border:none;
+    &hover{
+        color:white;
+
+        
+}
+}

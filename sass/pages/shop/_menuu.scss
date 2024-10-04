@@ -1,0 +1,5 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+.items-wan{
+    @include flex(space-between, center);
+    margin-top: 1em;}
